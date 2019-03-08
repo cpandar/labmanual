@@ -6,7 +6,7 @@ Lab manual for the [Systems Neural Engineering Lab](http://snel.gatech.edu).
 
 This is the Lab manual for the Systems Neural Engineering Lab at Emory University and the Georgia Institute of Technology. Our research is in the area of systems neuroscience and neuroengineering, and we're part of the GT/Emory Coulter Department of Biomedical Engineering, the Emory Department of Neurosurgery, and the Emory Neuromodulation Technology Innovation Center (ENTICe).
 
-If you've just joined the lab - welcome! We're excited to have you as part of the team. We try to be a welcoming group. You'll find the lab filled with smart, passionate people with broad interests at the intersection of neuroscience, engineering, and computational sciences. We really value diversity and openness in this lab, and hope to make it a friendly and productive environment.
+If you've just joined the lab - welcome! We're excited to have you as part of the team. You'll find the lab filled with smart, passionate people with broad interests at the intersection of neuroscience, engineering, and computational sciences. We really value diversity and openness in our lab, and hope to make it a friendly and productive environment.
 
 If you are officially joining, take the time to read this manual through, then sign [this form](https://drive.google.com/open?id=1RHPqaTXJJmbJIbALJFsgD2QdmmfU_86jgeJuZRB6Kxc) saying you've done so (and send to me via email).
 
@@ -15,12 +15,12 @@ Our lab manual borrows heavily from [this one](https://github.com/alylab/labmanu
 
 This lab manual is licensed under a [Creative Commons Attribution - NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Feel free to borrow from it (and cite it!).
 
-The lab manual is definitely a work in progress. If you have ideas about things to add or clarify, talk to me (Chethan).
+The lab manual is a work in progress. If you have ideas for improving it, please drop me (Chethan) a line!
 
 ## General Philosophy
 The mission of our lab is to produce work that truly advances the fields of neuroengineering and neuroscience, develops novel strategies and devices to treat disorders of the nervous system, and never compromises in quality and scientific integrity.
 
-Research is fundamentally different from most people's experiences in school. For new researchers, it is critical to take this to heart. In most undergraduate classes (and many professional training environments), you're usually asked to solve problems with a known solution. You have a syllabus, a textbook, lecture notes, etc., and generally if you use the listed resources and do what you're told, you will succeed. In research, we're ultimately *trying to expand the frontiers of human knowledge*. Therefore, with research questions, if we (or anyone else) already knew the answer, we would not be studying the question. A great piece that describes this concept is the now classic "[The importance of stupidity in scientific research](http://jcs.biologists.org/content/121/11/1771)". One key takeaway: if you're waiting for someone to tell you what to do and how to do it, your project *will not move forward*. 
+For new researchers, a helpful thing to keep in mind is that research is fundamentally different from most people's experiences in school. In most undergraduate classes (and many professional training environments), you're usually asked to solve problems with a known solution. You have a syllabus, a textbook, lecture notes, etc., and generally if you use the listed resources and do what you're told, you will succeed. In research, we're ultimately trying to *expand the frontiers of human knowledge*. Therefore, with research questions, if we (or anyone else) already knew the answer, we would not be studying the question. A great piece that describes this concept is the now classic "[The importance of stupidity in scientific research](http://jcs.biologists.org/content/121/11/1771)". One key takeaway: if you're waiting for someone to tell you what to do and how to do it, your project *will not move forward*. 
 
 Here are some keys to being successful in our lab environment:
 
@@ -32,7 +32,7 @@ Here are some keys to being successful in our lab environment:
 
 - **Caution**: Science is about being extremely careful and thorough. Double and triple check every result. Be extremely skeptical about results, and think through every way they could be wrong before concluding that they're correct. Ask others to look at your results and think of ways they might be wrong. If we apply extremely high standards internally, then our work will easily pass external review.
 
-- **Communication**: Technical skills are important, but equally (if not more important) are communication skills. No one in our lab works in isolation (see first item above!) - at a minimum, you communicate frequently with your PI (me), and likely work closely with other lab members and collaborators. So without sustained effort from everyone to communicate, it's easy for things to go off track, for there to be misunderstandings or duplicated efforts, 
+- **Communication**: Technical skills are important, but equally (if not more important) are communication skills. No one in our lab works in isolation (see first item above!) - at a minimum, you communicate frequently with your PI (me), and likely work closely with other lab members and collaborators. So without sustained effort from everyone to communicate, it's easy for things to go off track, for there to be misunderstandings or duplicated efforts, etc. (See a longer section below on my preferred methods of communication.)
 
 - **Feedback**: We want everyone in the lab to be comfortable giving and receiving direct, constructive criticism and feedback. It's extremely challenging to open up your thoughts and ideas to criticism, for fear that people will judge you personally. But if everyone is comfortable giving and receiving feedback that is never personal, it opens us up to different perspectives. Often this will reveal flaws in ideas that are hard to see when you're too close to them, and new solutions. Similarly, it's easy to get too attached to ideas because they're your own - we all have an instinct to go prove our ideas and show how clever we are. In our lab environment, that doesn't impress anyone - there's no "extra credit" for doing things on your own. Being clever is not nearly as highly valued as being able to get the job done.
 
@@ -46,8 +46,8 @@ Here are some keys to being successful in our lab environment:
 
 - Be driven, focused, and passionate about their work. 
 - Be collegial and supportive of everyone else on the team, and continually strive to maintain a collaborative and welcoming environment.
-- Take on responsibilities, and live up to commitments.
 - Exercise independent thinking and judgement.
+- Take on responsibilities, and reliably fulfill commitments.
 - Openly communicate your struggles and mistakes.
 - Openly communicate with me when you have issues with others in the lab. If you're not comfortable communicating your issues with me directly, there are resources in the department (other faculty or staff) who can help.
 - Maintain the highest standards of moral and ethical conduct and scientific integrity.
@@ -154,7 +154,7 @@ We have a few specialized or project-specific calendars (surgery, scheduling job
 [Gitlab](https://about.gitlab.com/) is a server for hosting git repositories. Note that this is _hosted on an internal lab server_ (not an external website), meaning you have to be on Emory's campus or logged in via the VPN to access it. All code for all systems in the lab is tracked on our Gitlab server.
 
 #### Github
-We have a [Github organization](https://github.com/orgs/snel-repo/dashboard) for creating public-facing code repositories.
+We have a [Github organization](https://github.com/snel-repo) for creating public-facing code repositories.
 
 #### Wiki
 _In progress_: we are setting up a lab wiki as a way for everyone in the lab to contribute to more specific documentation of lab practices, technical info, etc.
@@ -166,18 +166,48 @@ File sharing, collaborative editing, presentations, and archiving of abstracts/p
 Our Google Groups listserv is often a quick way to disseminate email announcements from other sources.
 
 #### Computing resources
-Much of our work uses sophisticated computational techniques, and we have a suite of powerful servers for this purpose. More often than not, if you are working on a computational task, it is easier to do it on one of our servers (or all of them in a cluster configuration). You will need a specific account to use our machines.
+Much of our work uses sophisticated computational techniques, and we have a suite of powerful servers for this purpose. More often than not, if you are working on a computational task, it is easier to do it on one of our servers, or all of them in a cluster configuration. (You'll need a specific account to use these machines.)
 
 ## General Policies
 
 ### Communication
 
-In my experience, one of the strongest predictors of whether people will do well in the lab is their ability to communicate effectively, both with me and with others. Many people worry that if they communicate their questions and struggles, they will be seen as not knowing something. In fact, the opposite is usually true - people who don't communicate often get hung up on specific issues (that may be very challenging), and the right decision is often to just speak up and work with me and your colleagues in lab to find a solution to the problem. A second issue is that people are often afraid of bother
+In my experience, one of the strongest predictors of whether people will do well in the lab is their ability to communicate effectively, both with me and with others. Often there are two key barriers:
+
+- Sometimes people worry that if they communicate questions or struggles, they will be seen as somehow inferior for not knowing something. In fact, that's rarely the case, and the opposite is a much bigger concern! People who don't communicate often get hung up on specific issues (that may be very challenging, and could really use outside perspective/discussion). Ultimately this leads to someone being much less productive than the person who's willing to ask questions. On the other hand, I've never once worried about somebody not knowing something - everyone in the lab is around because we believe in their talents. So the right decision is most often to just speak up! Try to overcome [your imposter syndrome](https://www.chronicle.com/article/How-to-Overcome-Impostor/244700), and focus on working with your colleagues (me, other lab members) to find a solution to the problem.
+- A second issue is that we're often afraid of "bothering" more senior people (undergrads worry about bothering grad students, grad students worry about bothering postdocs, everybody worries about bothering the PI, etc). I feel the same way about potentially bothering my own mentors and supervisors! Fight that instinct. Bottom line - I much prefer that people in the lab speak up, and I have no problem telling people if they are in fact bothering me (so far, this has never happened).
+
+If these are sources of anxiety, I totally get it. However, if it's possible to overcome them, your time in lab will end up being much easier, and likely your productivity will increase quite a bit!
+
+As a bare minimum, I expect graduate and postdoctoral researchers to:
+
+- Meet 1:1 every week to discuss ongoing activities, and set the meeting agenda and follow-up with action items (see below). If for some reason we can't meet (one of us is out of town or extraordinarily busy), post a weekly summary and plans for the upcoming week.
+- Post ongoing progress/results in a relevant Slack channel (good for chat, not great for long-term tracking) or on Basecamp (great for being able to come back to later)
+- Keep me updated when things aren't going to plan (examples: things are taking longer than anticipated, something is more complex than we thought, results don't match expectations, or something that seemed clear when we talked doesn't seem clear anymore). This stuff happens all the time, but updates are critical for helping set expectations and guiding decision-making.
+
+Note this is a minimum, and *I prefer more communication to less*. At another extreme, some people will send a 2-3 line update in the morning outlining their high-level goals/plans and checking in. This is a really good strategy and never bothers me, even if I don't have time to respond. Often, this process will reveal areas where we aren't on the same page, and prevent larger misunderstandings. So if this works for you, awesome. I certainly recognize that everyone has different communication styles.
+
+I *do not* expect you to generally feel the need to respond to things on weekends or after hours. I do sometimes send emails or Slack messages during those times - that's just because I get to stuff when I get to it. Don't feel pressured to respond until you're back to work yourself! I only expect you to be responsive after hours during specific critical time periods (e.g., right before a submission deadline or leading up to a conference presentation). We should be able to anticipate those cases and agree upon a strategy in advance. If there's anything distressing about off-hours messages, just let me know, and I'll try not to bother you during those times.
 
 ### Hours
 
+You benefit a lot from being in lab: it's a good way to learn from others, build camaraderie amongst team members, and avoid falling into distractions that you might face at home or elsewhere. Academia generally offers more flexibility than many other jobs, but full-time researchers should still be working on research 40 hrs/week. Early graduate students will have classes and TA'ing that cut into these hours, of course, but I expect you to show up to the lab regularly when you don't have those obligations.
+
+To facilitate interaction, I encourage everyone to try to consistently be in lab between the hours of 10:30a to 4p. Some people like to work early, others late, but having a minimum window ensures there's a time where people can count on interacting with each other.
+
+There's no concept of "face time" in the lab - I care much more that you're able to make consistent progress. But keep in mind that everyone benefits from a vibrant, interacting team.
+
+Since a lot of the work we do involve setting up computational jobs that may run for several hours, it is often in your best interest to be able to login after hours, check the status on a run, make decisions about the next run, and get it going. Small, easy interventions in off hours can often save you hours or even days in a given week.
+
+**Undergrads** should work at least 10 hours/week in the lab. This is because we devote a massive amount of time (between grad students, postdocs, and myself) to training and mentoring undergrad lab members. Anything less than 10 hrs/week makes it impossible to make consistent progress, and thus isn't fair to the grad students/postdocs that take on mentorship roles. As mentioned above, all undergrads should setup a weekly schedule in the lab calendar so your mentors/colleagues can know when to expect you in the lab, and keep us posted when you need to deviate from that schedule. Occasionally it's possible to commit to fewer hours, if students have been working for a few semesters and are looking to transition away from the lab but hoping to finish up some work - talk to me about this.
+
+### Office hours ###
+
+If I'm in my office, my door is generally open and you're welcome to knock and come in. Sometimes I won't have time to talk and I'll let you know. If the door's closed, I might be on a call or trying to focus on something - in those cases, Slack is an easier way to see if I'm available.
+
 ### Meetings
 
+#### One-on-one meetings
 As a graduate student or postdoc, I expect we will have structured meetings once/week. (We might miss one on occasion if I am out of town or etc.) These structured meetings are critical to tracking both high-level and low-level progress on your projects, and ultimately your career. 
 
 I leave the content of the meeting largely to your discretion. Sometimes it's helpful to discuss things that aren't specific to a project - classes, applications / rec letters, mental health, etc. This is how we make sure you have the time to discuss whatever you need to.
@@ -193,6 +223,14 @@ After our meeting, I expect you to post some notes on our discussion, as well as
 
 We will of course generally have lots of opportunities for less formal interaction in the lab, but the weekly meeting is a key check-in to ensure you have time to address critical issues.
 
+#### Lab Meetings
+
+We try to have lab meetings ~once/week, for ~1.5 hrs each. Content varies, but we typically cycle through journal clubbing papers of interest, lab members updating the group on their progress, and practicing presentations. It's also wonderful when people discover new things they think the rest of the lab might benefit from (technical tools, data visualization tips, version control strategies, project management approaches... anything heplful) - if you have something like this to share, let me know and we can easily carve out 5-10 minutes in the meeting to discuss.
+
+I expect grad students and postdocs to present ~twice/semester. I strongly encourage undergrads to present project updates as well - it's great practice!
+
+We typically adjust our lab meeting schedule every semester to accommodate people's classes as best as we can. Lab members are expected to attend all meetings, but of course it's understandable when things come up.
+
 ### Deadlines
 
 If you have something with a deadline, you want to bring it up with your collaborators as soon as you find out what the deadline is. Don't be afraid to bug people - far, far worse is putting something off until the last minute, and forcing your collaborators to scramble.
@@ -205,20 +243,24 @@ For things that will need multiple back-and-forth interactions (fellowship appli
 
 ### Presentations
 
+Communicating research is a critical piece of the research endeavor - if we don't communicate our work, it may as well have never happened! So learning to deliver compelling presentations is an important piece of your training (and good presentation skills are invaluable even outside of academia).
+
+When you present your work, you are representing not only yourself, but also your lab. So I highly encourage every student to get as much practice presenting as possible, whether it's within our lab meetings, journal clubs, events with other labs on campus, and external presentations/events.
+
+If you're planning to give an external presentation, I generally expect you to give a practice presentation in lab at least 2 weeks ahead of time (1 week emergency situations, but that is really not enough time to integrate feedback and practice your revised presentation). If you're planning on giving a job talk, I'd recommend you give practice presentations at least a month ahead of time, because getting that right is an iterative process.
+
+We keep copies of previous presentations in the lab Google Drive. I highly encourage our team to share presentation materials (you're welcome to anything from my own presentations). Check with other folks before using their materials.
+
 ### Recommendation Letters
 
-### Data Management
+### Purchasing
 
-## Funds
-
-#### Purchasing
-
-Generally if you need to buy something that's less than ~$50, I prefer you order it to move quickly and just give me a head's up. If something's more expensive, let me know and I'll get back to you soon. It is important to me that progress isn't stalled because we're waiting for parts or etc. In general, your time is the most valuable commodity in the lab.
+Generally if you need to buy something that's less than ~$50, I prefer you order it to move quickly, and then just drop me a line to let me know you did. If something's more expensive, let me know and I'll get back to you soon. It is important to me that progress isn't stalled because we're waiting for parts or etc. In general, your time is the most valuable commodity in the lab.
 
 We have multiple avenues for purchasing items (Emory Express for many vendors, Amazon, Newegg). Generally grad students and postdocs have access to our corporate card for purchasing from external vendors, or work with our admin (Colleen Spellen). If you purchase anything on our corporate card, it is critical to send the receipt to Colleen as soon as you have it.
 
-#### Grant Funding
-Our funding comes from various sources - Chethan's startup package, grants from the NSF, NIH, DARPA, and private foundations. I will often ask you for help with grants, especially preparing figures, reviewing text, help brainstorming, etc. When this happens, it's usually on a tight deadline - sorry in advance.
+### Grant Funding
+Our funding comes from various sources - Chethan's startup package, grants from the NSF, NIH, DARPA, and private foundations. I will often ask you for help with grants, especially preparing figures, reviewing text, helping brainstorm, etc. When this happens, it's usually on a tight deadline - sorry in advance.
 
 I keep copies of many (successful and failed) submissions on our lab's Google Drive share. These are confidential and only for internal lab use. I'd encourage you to read through some of them to understand the funding process, to see how often I fail at stuff too, and to get a sense of our lab's long-term vision. Feel free to discuss any of this with me.
 
