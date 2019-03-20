@@ -418,7 +418,7 @@ In our lab, we think a lot about how the coordinated activity of populations of 
 
 *Details on the computational approaches we use*:
 
-- Sussillo D, Jozefowicz R, Abbott LF, Pandarinath C. (2016) LFADS – Latent Factor Analysis via Dynamical Systems. _arXiv_:1608.06315, 22 Aug. [[arXiv](https://arxiv.org/abs/1608.06315/)] **We created LFADS, a deep learning method to uncover dynamics from single trial neural population activity. This paper goes over much of the theory and demonstrates application to a few different simulated systems.**
+- Sussillo D, Jozefowicz R, Abbott LF, Pandarinath C. (2016) LFADS – Latent Factor Analysis via Dynamical Systems. _arXiv_:1608.06315, 22 Aug. [[arXiv](https://arxiv.org/abs/1608.06315/)]. **We created LFADS, a deep learning method to uncover dynamics from single trial neural population activity. This paper goes over much of the theory and demonstrates application to a few different simulated systems.**
 
 - Pandarinath C, O’Shea DJ, Collins J, Jozefowicz R, Stavisky SD, Kao JC, Trautmann EM, Kaufman MT, Ryu SI, Hochberg LR, Henderson JM, Shenoy KV, Abbott LF, Sussillo D. (2018) Inferring single-trial neural population dynamics using sequential auto-encoders. _Nature Methods_, 15(10). [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30224673)] [[free access](https://rdcu.be/6Wji)]. **We applied LFADS to activity recorded from monkey and human M1. We show that LFADS helps accurately predicts behavior, extracts precise estimates of neural dynamics on single trials, infers perturbations to those dynamics that correlate with behavior, and combines data spanning months to improve inference of underlying dynamics.**
 
