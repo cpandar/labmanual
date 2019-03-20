@@ -404,15 +404,23 @@ If you participate in reviews, you can/should add them to your CV.
 
 ## Info for new or prospective students
 
+#### Technical areas
+
+As mentioned above, we take graduate and undergraduate students from a broad range of backgrounds. Regardless of the project you're on, developing your technical skills will be crucial. Regarding **programming**, incoming graduate students should be experienced in MATLAB or Python (preferably both). Because so much of our work requires substantial computational power, students typically must become comfortable working on Linux servers. Regarding **technical subjects**, students will typically need to know or become comfortable with machine learning, calculus, differential equations, linear algebra, signal processing, dimensionality reduction, dynamical systems, and information theory. For **experimental projects**, students become typically proficient in rodent handling, surgery, behavioral training, electrophysiology, real-time systems, circuits, and embedded systems.
+
+*No one* comes in with expertise in all these areas. However, if you're looking at this list and none of these terms are at all familiar, it may be hard to get integrated in the lab.
+
 #### Reading material
 
-In our lab, we think a lot about how the coordinated activity of populations of neurons represents information and drives behavior. We are especially focused on understanding large networks of neurons as coordinated, dynamical systems, and using deep learning methods to understand these dynamics. If you're really interested in the work we do, I'd recommend starting with the reviews below. [Updated 2019-03-18]
+We think a lot about how the coordinated activity of populations of neurons represents information and drives behavior. We are especially focused on understanding large networks of neurons as coordinated, dynamical systems, and using deep learning methods to understand these dynamics. If you're really interested in the work we do, I'd recommend starting with the reviews below. 
 
-*Review articles you'll want to be familiar with*:
+[Updated 2019-03-18]
 
-- Shenoy KV, Sahani M, Churchland MM (2013) Cortical control of arm movements: A dynamical systems perspective. _Annual Review of Neuroscience_. 36:337-359. [[pdf](https://web.stanford.edu/~shenoy/GroupPublications/ShenoyEtAlAnnRevNeurosci2013.pdf)]. **A great introduction to the dynamical systems perspective on motor cortex, and how it contrasts with previous models of M1.**
+*Review articles*:
 
-- Cunningham JP, Yu BM (2014) Dimensionality reduction for large-scale neural recordings. _Nature Neuroscience_. Nov;17(11):1500-9. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25151264)]. **Wonderful overview of how dimensionality reduction techniques have been applied to understand neural population activity.**
+- Shenoy KV, Sahani M, Churchland MM (2013) Cortical control of arm movements: A dynamical systems perspective. _Annual Review of Neuroscience_. 36:337-359. [[pdf](https://web.stanford.edu/~shenoy/GroupPublications/ShenoyEtAlAnnRevNeurosci2013.pdf)]. **Great introduction to the dynamical systems perspective on motor cortex, and how it contrasts with previous models of M1.**
+
+- Cunningham JP, Yu BM (2014) Dimensionality reduction for large-scale neural recordings. _Nature Neuroscience_. Nov;17(11):1500-9. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25151264)]. **Wonderful recap on applications of dimensionality reduction techniques to understanding neural population activity.**
 
 - Pandarinath C, Ames KC, Russo AA, Farschian A, Miller LE, Dyer EL, Kao JC. (2018) Latent factors and dynamics in motor cortex and their application to brain-machine interfaces. _Journal of Neuroscience_, 38(44) 9390-9401 [[pdf](http://snel.gatech.edu/wp-content/uploads/sites/426/2019/03/Pandarinath-et-al.-2018-Latent-Factors-and-Dynamics-in-Motor-Cortex-and-Their-Application-to-Brain%E2%80%93Machine-Interfaces.pdf)]. **We tried to create an approachable, up-to-date review of how latent variable and dynamical systems thinking has been applied to M1, and how the insights gained can be used to build better brain-machine interfaces.**
 
@@ -426,9 +434,18 @@ In our lab, we think a lot about how the coordinated activity of populations of 
 
 - Churchland MM, Cunningham JP, Kaufman MT, Foster JD, Nuyujukian P, Ryu SI, Shenoy KV. (2012) Neural population dynamics during reaching. _Nature_, Jul 5;487(7405):51-6. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/22722855)]. **Demonstrated that prominent rotational dynamics underlie population activity in M1 during reaching behavior.**
 
-- Kaufman MT, Churchland MM, Ryu SI, Shenoy KV. Cortical activity in the null space: permitting preparation without movement. _Nature Neuroscience_, Mar;17(3):440-8. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/24487233/)]. **Shows that low-D structure in M1 is organized into subspaces, and that activity related to movement preparation is orthogonal to activity that actually drives movement.**
+- Kaufman MT, Churchland MM, Ryu SI, Shenoy KV. (2014) Cortical activity in the null space: permitting preparation without movement. _Nature Neuroscience_, Mar;17(3):440-8. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/24487233/)]. **Shows that low-D structure in M1 is organized into subspaces, and that activity related to movement preparation is orthogonal to activity that actually drives movement.**
 
-- Sadtler PT, Quick KM, Golub MD, Chase SM, Ryu SI, Tyler-Kabara EC, Yu BM, Batista AP. Neural constraints on learning. _Nature_, Aug 28;512(7515):423-6. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25164754)]. **Demonstration that the low-D structure we commonly observe in M1 relates to the constraints on the network's ability to generate patterns of activity.**
+- Sadtler PT, Quick KM, Golub MD, Chase SM, Ryu SI, Tyler-Kabara EC, Yu BM, Batista AP. (2014) Neural constraints on learning. _Nature_, Aug 28;512(7515):423-6. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25164754)]. **Demonstration that the low-D structure we commonly observe in M1 relates to the constraints on the network's ability to generate patterns of activity.**
+
+- Russo AA, Bittner SR, Perkins SM, Seely JS, London BM, Lara AH, Miri A, Marshall NJ, Kohn A, Jessell TM, Abbott LF, Cunningham JP, Churchland MM. (2018) Motor cortex embeds muscle-like commands in an untangled population response. _Neuron_, Feb; 97(4). [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/29398358)] **Demonstrates that much of the neural activity in motor cortex does not correspond directly to task-related variables, but instead serves to "detangle" population dynamics.**
+
+*Books*:
+
+- Rieke F, Warland D, de Ruyter van Steveninck R, Bialek W. Spikes: Exploring the Neural Code (Computational Neuroscience) [[amazon](https://www.amazon.com/Spikes-Exploring-Neural-Computational-Neuroscience/dp/0262681080/)]. **Classic book that provides computational/probabilistic frameworks for understanding how information is represented in the nervous system.**
+
+- Dayan P, Abbott LF. Theoretical Neuroscience. Computational and Mathematical Modeling of Neural Systems. [[website](http://www.gatsby.ucl.ac.uk/~dayan/book/)] [[pdf](http://www.gatsby.ucl.ac.uk/~lmate/biblio/dayanabbott.pdf)]. **The go-to textbook in computational and systems neuroscience.**
+
 
 #### Notes for prospective grad students
 
