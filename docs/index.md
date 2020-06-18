@@ -412,25 +412,63 @@ As mentioned above, we take graduate and undergraduate students from a broad ran
 
 #### Reading material
 
-We think a lot about how the coordinated activity of populations of neurons represents information and drives behavior. We are especially focused on understanding large networks of neurons as coordinated, dynamical systems, and using deep learning methods to understand these dynamics. This paper list is not at all exhaustive, but it covers many of the concepts that people who have been in the lab for a while are expected to be familiar with. If you're really interested in the work we do, I'd recommend starting with the reviews below. 
+We think a lot about how the coordinated activity of populations of neurons represents information and drives behavior. Much of our work is focused on understanding large networks of neurons as coordinated, dynamical systems, and using deep learning methods to understand these dynamics. We also try to leverage these insights to build better brain-machine interfaces for people who are paralyzed.
 
-[Updated 2019-03-18]
+This paper list is not at all exhaustive, but it covers many of the concepts that people who have been in the lab for a while are expected to be familiar with. If you're really interested in the work we do, I'd recommend starting with the review articles below. Note that many people have institutional access to papers (through your university library or etc) - I'd recommend learning how to setup a proxy if you haven't already. If you need one of the below papers, email me and I'll try to help.
 
-*Review articles*:
+[Updated 2020-06-18]
 
-- Shenoy KV, Sahani M, Churchland MM (2013) Cortical control of arm movements: A dynamical systems perspective. _Annual Review of Neuroscience_. 36:337-359. [[pdf](https://web.stanford.edu/~shenoy/GroupPublications/ShenoyEtAlAnnRevNeurosci2013.pdf)]. **Great introduction to the dynamical systems perspective on motor cortex, and how it contrasts with previous models of M1.**
+**Review articles**:
 
-- Cunningham JP, Yu BM (2014) Dimensionality reduction for large-scale neural recordings. _Nature Neuroscience_. Nov;17(11):1500-9. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25151264)]. **Wonderful recap on applications of dimensionality reduction techniques to understanding neural population activity.**
+*Motor control*
 
-- Pandarinath C, Ames KC, Russo AA, Farschian A, Miller LE, Dyer EL, Kao JC. (2018) Latent factors and dynamics in motor cortex and their application to brain-machine interfaces. _Journal of Neuroscience_, 38(44) 9390-9401 [[pdf](http://snel.gatech.edu/wp-content/uploads/sites/426/2019/03/Pandarinath-et-al.-2018-Latent-Factors-and-Dynamics-in-Motor-Cortex-and-Their-Application-to-Brain%E2%80%93Machine-Interfaces.pdf)]. **We tried to create an approachable, up-to-date review of how latent variable and dynamical systems thinking has been applied to M1, and how the insights gained can be used to build better brain-machine interfaces.**
+To understand classic/historical perspectives on motor control, a great review is by John Kalaska:
 
-*Details on the computational approaches we use*:
+- Kalaska, John F. "From intention to action: motor cortex and the control of reaching movements." Progress in Motor Control. Springer, Boston, MA, 2009. 139-178. [[PDF link, working as of 2020-06-18](http://www.gatsby.ucl.ac.uk/~maneesh/tmp/kalaska.2009.motor.cortex.pdf)]
 
-- Sussillo D, Jozefowicz R, Abbott LF, Pandarinath C. (2016) LFADS – Latent Factor Analysis via Dynamical Systems. _arXiv_:1608.06315, 22 Aug. [[arXiv](https://arxiv.org/abs/1608.06315/)]. **We created LFADS, a deep learning method to uncover dynamics from single trial neural population activity. This paper goes over much of the theory and demonstrates application to a few different simulated systems.**
+In the last 10-ish years, an emerging perspective is that certain brain areas act as dynamical systems to drive movements. This perspective underlies much of the work we do:
 
-- Pandarinath C, O’Shea DJ, Collins J, Jozefowicz R, Stavisky SD, Kao JC, Trautmann EM, Kaufman MT, Ryu SI, Hochberg LR, Henderson JM, Shenoy KV, Abbott LF, Sussillo D. (2018) Inferring single-trial neural population dynamics using sequential auto-encoders. _Nature Methods_, 15(10). [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30224673)] [[free access](https://rdcu.be/6Wji)]. **We applied LFADS to activity recorded from monkey and human M1. We show that LFADS helps accurately predicts behavior, extracts precise estimates of neural dynamics on single trials, infers perturbations to those dynamics that correlate with behavior, and combines data spanning months to improve inference of underlying dynamics.**
+- Shenoy KV, Sahani M, Churchland MM (2013) Cortical control of arm movements: A dynamical systems perspective. _Annual Review of Neuroscience_. 36:337-359. [[pdf](https://web.stanford.edu/~shenoy/GroupPublications/ShenoyEtAlAnnRevNeurosci2013.pdf)].
 
-*Papers that heavily influence our thinking*:
+
+Some collaborators and I tried to create an approachable, up-to-date review on the science of latent variable models and dynamical systems in motor cortex, and how that can be applied to build better brain-machine interfaces.
+
+- Pandarinath C, Ames KC, Russo AA, Farschian A, Miller LE, Dyer EL, Kao JC. (2018) Latent factors and dynamics in motor cortex and their application to brain-machine interfaces. _Journal of Neuroscience_, 38(44) 9390-9401 [[pdf](http://snel.gatech.edu/wp-content/uploads/sites/426/2019/03/Pandarinath-et-al.-2018-Latent-Factors-and-Dynamics-in-Motor-Cortex-and-Their-Application-to-Brain%E2%80%93Machine-Interfaces.pdf)].
+
+*Dimensionality reduction in neuroscience*:
+
+Much of the work we do relies on understanding how to analyze and interpret coordinated patterns of neural activity. John Cunningham and Byron Yu wrote a great overview of this topic a few years ago:
+
+- Cunningham JP, Yu BM (2014) Dimensionality reduction for large-scale neural recordings. _Nature Neuroscience_. Nov;17(11):1500-9. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/25151264)].
+
+*Brain-machine interfaces*
+
+Two fairly recent reviews, one from Collinger, Gaunt, & Schwartz, and the other from Bensmaia & Miller:
+
+- Collinger JL, Gaunt RA, Schwartz AB. "Progress towards restoring upper limb movement and sensation through intracortical brain-computer interfaces." Current Opinion in Biomedical Engineering 8 (2018): 84-92.
+
+- Bensmaia S, and Miller LE. "Restoring sensorimotor function through intracortical interfaces: progress and looming challenges." Nature Reviews Neuroscience 15.5 (2014): 313-325.
+
+
+**Computational approaches we use**:
+
+We created LFADS, a deep learning method to uncover dynamics from single trial neural population activity. This paper goes over much of the theory and demonstrates application to a few different simulated systems.
+
+- Sussillo D, Jozefowicz R, Abbott LF, Pandarinath C. (2016) LFADS – Latent Factor Analysis via Dynamical Systems. _arXiv_:1608.06315, 22 Aug. [[arXiv](https://arxiv.org/abs/1608.06315/)].
+
+We applied LFADS to activity recorded from monkey and human M1. We show that LFADS helps accurately predicts behavior, extracts precise estimates of neural dynamics on single trials, infers perturbations to those dynamics that correlate with behavior, and combines data spanning months to improve inference of underlying dynamics.
+
+- Pandarinath C, O’Shea DJ, Collins J, Jozefowicz R, Stavisky SD, Kao JC, Trautmann EM, Kaufman MT, Ryu SI, Hochberg LR, Henderson JM, Shenoy KV, Abbott LF, Sussillo D. (2018) Inferring single-trial neural population dynamics using sequential auto-encoders. _Nature Methods_, 15(10). [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30224673)] [[free access](https://rdcu.be/6Wji)].
+
+*Brain-machine Interfaces*
+
+Here's some of our previous work on high-performing brain-machine interfaces for people who are paralyzed
+
+- Pandarinath C*, Nuyujukian P*, Blabe CH, Sorice BL, Saab J, Willett F, Hochberg LR, Shenoy KV, Henderson JM. (2017) High performance communication by people with tetraplegia using an intracortical brain-machine interface. eLife. Feb 21; 6. [[Open access at eLife](http://doi.org/10.7554/eLife.18554)]
+
+- Gilja V*, Pandarinath C*, Blabe CH, Nuyujukian P, Simeral JD, Sarma AA, Sorice BL, Perge JA, Jarosiewicz B, Hochberg LR, Shenoy KV**, Henderson JM**. (2015) Clinical translation of a high performance neural prosthesis. Nature Medicine, Oct;21(10):1142-5. [[DOI](http://doi.org/10.1038/nm.3953)]
+
+*Scientific papers that heavily influence our thinking*:
 
 - Churchland MM, Cunningham JP, Kaufman MT, Foster JD, Nuyujukian P, Ryu SI, Shenoy KV. (2012) Neural population dynamics during reaching. _Nature_, Jul 5;487(7405):51-6. [[pubmed](https://www.ncbi.nlm.nih.gov/pubmed/22722855)]. **Demonstrated that prominent rotational dynamics underlie population activity in M1 during reaching behavior.**
 
