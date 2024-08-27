@@ -336,17 +336,30 @@ Some good general resources for paper writing are below. There are plenty of mor
 
 One of my key roles in furthering people's careers is writing recommendation letters. If you haven't been in a position to evaluate applications or hire people before, then you may not realize how important these letters are! To give you perspective - when you're evaluating applications, it's really hard to know how things like GPAs, coursework, writing, tests, etc. will translate into future success. This is a really "noisy" process, but evaluators tend to put a lot of weight on someone else's personal evaluation.
 
-Given the importance of these letters, I write them honestly and I put a lot of time and thought into them. My goal is that by the end of your time in lab, I'll be able to describe your accomplishments in convincing detail, and talk about things like your independence, drive, communication abilities, scholarship, passion, collegiality, honesty and openness, reliability, critical thinking skills, and ability to "get the job done."
+I write letters honestly and I put a lot of time and thought into them. My goal is that by the end of your time in lab, I'll be able to describe your accomplishments in convincing detail, and talk about things like your independence, drive, communication abilities, scholarship, passion, collegiality, honesty and openness, reliability, critical thinking skills, and ability to "get the job done."
 
 Some key points:
 
-- Because I do spend a lot of time on these, you've got to give me a head's up well in advance (at least 2 weeks as mentioned above). Also, add an event to the lab shared calendar and have it send me a reminder email a week in advance, to help me keep track.
+- Because of the time commitment, I need a head's up at least 2 weeks in advance. Also, add an event to the lab shared calendar and have it send me a reminder email a week in advance, to help me keep track.
 
-- It's really helpful if you can compile useful materials - essentially put together a short draft of the info you think the letter should contain. Don't worry at all about the language, I will absolutely not submit what you write. But it will help me be sure the I include all the information you need. Mention how I know you, how long you've been in the lab, and what program(s) you're in. Try to cover the main projects you participated in, places where you felt you made significant contributions, your particular strengths that may have contributed to your achievements, and ways in which you feel you've grown/benefitted from being in the lab. I usually can't spend too much time talking about specific experiences outside of the lab (because I can't speak to them first hand), but if there are a few particular points you think are helpful to highlight that don't directly relate to our lab, mention them and I will incorporate if I can.
+- When applying for a lot of things (e.g., your grad school applications, multiple fellowships, academic job applications, etc): create a Google (or etc) spreadsheet containing all the places you're applying to, deadlines, any links or other info you have, and I will update the spreadsheet as I submit each item.
 
-(This may seem like a tedious process, but it's invaluable. The letter will end up being an honest assessment of you from my perspective, but hearing your perspective is really helpful! Also, I might forget about specific projects or instances where you played a really key role, and this is your chance to make sure that those highlights get into the letter. Note: it feels pretty awkward to highlight your own accomplishments. Don't worry about it! Everyone is much too humble when putting these together. This is not the time to be modest!)
+- Please give me an up-to-date CV.
 
-- When applying for a lot of things (e.g., your grad school applications, multiple fellowships, academic job applications, etc) - create a Google (or etc) spreadsheet containing all the places you're applying to, deadlines, any links or other info you have, and I will update the spreadsheet as I submit each item.
+- It's critical that you compile useful materials to give me a starting point - essentially a short draft with info you think the letter should contain. Don't worry about the language - I will /absolutely not/ submit your writing. But a draft will help ensure I include all the information you need.
+
+Things to mention in your draft:
+
+- How I know you
+- How long you've been in the lab
+- What program(s) you're in
+- Any particular accolades/awards/honors
+- Anything notable about your journey that folks may not know / you want to share
+- Your general career goals
+- Cover the main projects you participated in, places where you felt you made significant contributions
+- Your particular strengths that may have contributed to your achievements, and ways in which you feel you've grown/benefitted from being in the lab.
+
+The letter will end up being an honest assessment of you from my perspective, but hearing your perspective is really helpful! This is your chance to make sure any highlights get into the letter. (Note: it feels pretty awkward to highlight your own accomplishments. Don't worry about it! Everyone is much too humble when putting these together. This is not the time to be modest!)
 
 ### Purchasing
 
